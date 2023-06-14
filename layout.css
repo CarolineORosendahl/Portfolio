@@ -1,0 +1,44 @@
+.grid_1 {
+  margin: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: -1000px;
+  width: 100%;
+  padding: 0%;
+  font-size: 100%;
+}
+
+Portfoliogrid {
+  margin: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-top: -1000px;
+  width: 100%;
+  padding: 0%;
+  font-size: 100%;
+}
+
+/*Temaer grids*/
+.grid-container {
+  margin: center;
+  font-family: "Zipper", sans-serif;
+  display: grid;
+  grid-template-columns: repeat(
+    1fr,
+    1fr
+  ); /* Adjust the number of columns as needed */
+  grid-gap: 10px; /* Adjust the gap between grid items */
+}
+
+.grid-item {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  font-family: "Zipper", sans-serif;
+  display: inline-grid;
+  display: grid;
+  column-gap: 50px;
+  gap: 20px 50px;
+  margin-left: 20px;
+  margin: center;
+}

@@ -1,0 +1,322 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/*Navbar*/
+.logo-img {
+  float: left;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.navbar ul li {
+  font-family: "Zipper", sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 8px 25px;
+  transition: all 0.5s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: white;
+  color: pink;
+  box-shadow: 0 0 10px white;
+}
+
+/*home section*/
+#home {
+  display: flex;
+  flex-direction: column;
+  background-color: black rgba(0, 0, 0, 0, 5);
+  height: 840px;
+  justify-content: center;
+  align-items: center;
+  color: pink;
+}
+
+#home ::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("/images/cao1.jpg") no-repeat center center/cover;
+  height: 900px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.headings {
+  font-family: "Zipper", sans-serif;
+  font-size: 3rem;
+  text-align: center;
+}
+
+/*Portfolio botton*/
+.btn {
+  padding: 15px 50px;
+  margin-left: 30%;
+  margin-top: 5%;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  outline: none;
+  transition: 0.6s ease;
+  font-family: "Zipper", sans-serif;
+}
+/*hover giver seje farver*/
+.btn:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: black;
+  box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+  border: pink;
+  font-weight: bold;
+}
+
+/*About section*/
+#about {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+}
+
+#pic {
+  display: flex;
+}
+
+#pic img {
+  width: 400px;
+  height: 600px;
+  margin-top: 6%;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+  font-size: 1.4rem;
+  font-family: "Zipper", sans-serif;
+}
+
+#intro h2 {
+  font-size: 2rem;
+  margin-top: 270px;
+  font-size: 3rem;
+  font-family: "Zipper", sans-serif;
+}
+
+/*kontakt section*/
+#kontakt {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: url("/images/cao2.jpg") no-repeat center center/cover;
+  margin-top: 100px;
+  height: 600px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  font-size: 2rem;
+}
+
+#information {
+  font-family: "Zipper", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  padding: 10px;
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/*hover giver seje farver*/
+.btn:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: black;
+  box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+  border: pink;
+  font-weight: bold;
+}
+
+/*Instagram tagget i button(knappen som ikke er en knap) i kontakt*/
+a {
+  color: black;
+  font-size: 1.5rem;
+}
+
+/*information i kontakt*/
+p {
+  font-size: 1.3rem;
+}
+
+/*hover giver seje farver i kontakt*/
+u a:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+  border: pink;
+}
+
+/*PORTFOLIO.HTML*/
+
+/*T1.html*/
+#temaer {
+  font-size: 1rem;
+  font-family: "Zipper", sans-serif;
+}
+/*Portfoliotekst på portfoliosiden*/
+.headings1 {
+  font-size: 3rem;
+  font-family: "Zipper", sans-serif;
+  margin-bottom: 100;
+}
+
+/*Tema knapper*/
+
+.btn1 {
+  width: 20rem;
+  padding: 15px 50px;
+  margin: center;
+  margin-top: 100px;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  outline: none;
+  transition: 0.6s ease;
+  font-family: "Zipper", sans-serif;
+}
+
+.btn1:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: black;
+  box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+  border: pink;
+  font-weight: bold;
+}
+
+.btn2 {
+  width: 20rem;
+  padding: 15px 50px;
+  margin: center;
+  margin-top: 5%;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  outline: none;
+  transition: 0.6s ease;
+  font-family: "Zipper", sans-serif;
+}
+.btn2:hover:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: black;
+  box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+  border: pink;
+  font-weight: bold;
+}
+
+.btn3 {
+  width: 20rem;
+  padding: 15px 50px;
+  margin: center;
+  margin-top: 5%;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  outline: none;
+  transition: 0.6s ease;
+  font-family: "Zipper", sans-serif;
+}
+.btn3:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: black;
+  box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+  border: pink;
+  font-weight: bold;
+}
+
+.btn4 {
+  width: 20rem;
+  padding: 15px 50px;
+  margin: center;
+  margin-top: 5%;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  outline: none;
+  transition: 0.6s ease;
+  font-family: "Zipper", sans-serif;
+}
+.btn4:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: black;
+  box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+  border: pink;
+  font-weight: bold;
+}
+
+.btn5 {
+  width: 20rem;
+  padding: 15px 50px;
+  margin: center;
+  margin-top: 5%;
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  outline: none;
+  transition: 0.6s ease;
+  font-family: "Zipper", sans-serif;
+}
+.btn5:hover:hover {
+  cursor: pointer;
+  background-color: pink;
+  color: black;
+  box-shadow: 0 0 5px pink, 0 0 10px pink, 0 0 15px pink;
+  border: pink;
+  font-weight: bold;
+}
+
+.temaer1 h1 p {
+  margin: center;
+}
